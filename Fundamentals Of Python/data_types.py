@@ -1,4 +1,5 @@
-# Python supports various bnuilt in data types. Data types represent the type of data we store in any variable. For ex. Integer, Floats, String, Booleans....
+''' Python supports various bnuilt in data types. Data types represent the type of data we
+ store in any variable. For ex. Integer, Floats, String, Booleans....'''
 name = "Deepasnshu"
 print(type(name))
 age = 20
