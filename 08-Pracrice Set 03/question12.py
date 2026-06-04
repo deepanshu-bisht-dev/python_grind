@@ -9,7 +9,7 @@ def fibonacci(n):
 n = int(input("Enter the number of terms:"))
 print("Fibonaccci Series")
 for i in range(n):
-    print(fibonacci(i), end=" ")
+    print(fibonacci(i), end = " ")
 
 
 
