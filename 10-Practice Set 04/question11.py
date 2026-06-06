@@ -10,4 +10,3 @@ print(friends.keys())
 
 print(friends.values())
 
-print(friends.items())

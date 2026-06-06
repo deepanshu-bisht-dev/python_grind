@@ -1,18 +1,26 @@
-'''Write a program that takes a list of numbers and removes 
-all duplicates using a set.'''
-def remove_duplicates(numbers):
+'''Given a dictionary of products and their prices, find the
+product with the highest price.'''
+
+def most_expensive_product(products):
     '''
-    Remove duplicates from a list using a set.
+    Find the product with the highest price.
 
     Parameters:
-        numbers (list): A list of integers or floats.
+        products (dict): Dictionary of product: price pairs.
 
     Returns:
-        list: A new list with duplicates removed.
+        tuple: (product_name, price) of the highest priced product.
     '''
-    return list(set(numbers))
+    return max(products.items(), key=lambda x: x[1])
 
- 
-nums = [1, 2, 3, 2, 4, 1, 5, 3]
-print("Original list:", nums)
-print("Without duplicates:", remove_duplicates(nums))
+
+
+products = {
+    "Laptop": 80000,
+    "Phone": 60000,
+    "Tablet": 35000,
+    "Monitor": 15000
+}
+
+product, price = most_expensive_product(products)
+print(f"The most expensive product is '{product}' with price {price}.")
