@@ -1,5 +1,5 @@
 class Dog : # We define a class called Dog.
-    species = "Canis famialris" #A class attribute shared by al dogs.
+    species = "Canis famialris" #A class attribute shared by all dogs.
 
     def __init__(self,name,breed):
         self.name = name
