@@ -30,13 +30,13 @@ This repository is my daily Python learning log. It starts from the absolute bas
 
 ---
 
-## 🎯 Why This Repo Exists
+##  Why This Repo Exists
 
 Most learning gets lost without practice. This repo is my way of staying consistent — covering one Python topic, then immediately reinforcing it with a hands-on practice set before moving to the next. It's less about finishing fast and more about building a solid foundation, topic by topic.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Clone the repo and explore any folder directly:
 
@@ -60,11 +60,7 @@ python filename.py
 
 ---
 
-## 📈 Status
 
-🔄 Actively updated — new topics and practice sets are added as the learning progresses.
-
----
 
 ## 🤝 Connect
 
